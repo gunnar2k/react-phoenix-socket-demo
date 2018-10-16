@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './app.js',
+  entry: './index.js',
   module: {
     rules: [
       {
