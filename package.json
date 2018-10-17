@@ -26,6 +26,6 @@
     "phoenix-socket": "^1.2.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-phoenix": "git+https://github.com/gunnar2k/react-phoenix"
+    "react-phoenix-socket": "^1.0.0"
   }
 }
