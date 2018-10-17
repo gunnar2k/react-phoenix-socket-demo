@@ -16,7 +16,21 @@ const Demo = () => {
       <h1>Demo</h1>
       <Phoenix
         channel="presence-lobby"
-        event="channel:presences"
+        event="presence_state"
+        onUpdate={(payload) => {
+          console.log(payload);
+        }}
+      />
+      <Phoenix
+        channel="presence-lobby"
+        event="presence_diff"
+        onUpdate={(payload) => {
+          console.log(payload);
+        }}
+      />
+      <Phoenix
+        channel="presence-lobby"
+        event="message"
         onUpdate={(payload) => {
           console.log(payload);
         }}
